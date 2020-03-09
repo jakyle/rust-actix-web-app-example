@@ -8,7 +8,7 @@ this actix example uses
 
 in order to use this app you will need a .env file that contains the connection string to your postgres sql.
 
-```DATABASE_URL=postgres://username:password0@localhost/dbname```
+```DATABASE_URL=postgres://username:password@localhost/dbname```
 
 
 you will also need the diesel cli with the postgres feature enabled in order to interact with migration changes.
